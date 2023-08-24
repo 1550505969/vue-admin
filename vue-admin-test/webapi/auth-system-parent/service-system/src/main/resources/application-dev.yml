@@ -1,0 +1,20 @@
+server:
+  port: 8800
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:13306/guigu-auth?characterEncoding=utf-8&useSSL=false
+    username: root
+    password: lkh200384
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  redis:
+    database: 0
+    password: 80806379
+    port: 6379
+    host: 192.168.38.100
